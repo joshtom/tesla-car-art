@@ -15,6 +15,7 @@ $border: #999999;
     border: 3px solid $border;
     overflow: hidden;
     box-shadow: inset -4px -4px 0 rgba(#333, 0.2);
+    display: none;
 
     &:before {
        position: absolute;
@@ -29,4 +30,8 @@ $border: #999999;
        border: 2px solid $border;
        box-shadow: inset -5px 5px 3 0 rgba(#fff, 0.4);
     }
+}
+
+.bumper-top{
+    
 }
