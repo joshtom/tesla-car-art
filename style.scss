@@ -62,5 +62,27 @@ $border: #999999;
     }
 }
 .rear-top{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 0 70% 0 0;
+    overflow: hidden;
+    transform: rotate(10deg);
+    display: none;
+
+    .backlight{
+        position: absolute;
+        width: 50px;
+        height: 15px;
+        border: 3px solid;
+        border-radius: 0px 0 0 50px;
+        bottom: -4px;
+        right: -10px;
+        background: tomato;
+    }
+}
+
+.fender{
     
 }
