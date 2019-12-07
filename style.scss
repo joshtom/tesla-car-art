@@ -27,5 +27,6 @@ $border: #999999;
        left: -7px;
        top: 7px;
        border: 2px solid $border;
+       box-shadow: inset -5px 5px 3 0 rgba(#fff, 0.4);
     }
 }
