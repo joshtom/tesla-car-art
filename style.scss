@@ -13,7 +13,7 @@ $border: #999999;
     top: 60px;
     left: 60px;
     border: 3px solid $border;
-    // overflow: hidden;
+    overflow: hidden;
     box-shadow: inset -4px -4px 0 rgba(#333, 0.2);
 
     &:before {
@@ -23,6 +23,9 @@ $border: #999999;
        height: 17px;
        border-radius: 3px;
        background: #f7ac76;
-       transform: rotate(45deg);
+       transform: rotate(-45deg);
+       left: -7px;
+       top: 7px;
+       border: 2px solid $border;
     }
 }
