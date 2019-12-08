@@ -4,4 +4,11 @@ body {
   background: radial-gradient(#555260, #18171b);
   overflow: hidden; }
 
+.joshua .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid red; }
+
 /*# sourceMappingURL=style.css.map */

@@ -15,6 +15,14 @@ body{
     $hand: 2;
     $car-front: -2;
     $car-rear: -1;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        border: 1px solid red;
+    }
 }
 
 
