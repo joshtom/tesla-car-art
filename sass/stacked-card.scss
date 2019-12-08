@@ -3,7 +3,7 @@ body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background: #666;
+    background: rgb(255, 255, 255);
     overflow: hidden;
 }
 
@@ -14,6 +14,16 @@ body{
     background: white;
     border-radius: 1rem;
     padding: 1.5rem;
-    box-shadow: 3px 3px 12px 2px rgba($color: #000000, $alpha: 0.6);
+    box-shadow: 3px 3px 12px 1px rgba($color: #09031d, $alpha: 0.6);
     transition: 0.2s;
+    &:not(:first-child){
+        margin-left: -2rem;
+    }
+    &:not(:last-child):hover,
+    &:not(:last-child):focus-within {
+        transform: translateY(-1rem);
+        ~ .card {
+            transform: translateX(2rem);
+        }
+    }
 }
