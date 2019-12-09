@@ -48,7 +48,9 @@ body{
             // For Car fix to remove the border that
             
             &-fix{
-                
+                width: 10px;
+                height: 10px;
+                background: #fff;
             }
 
         }
