@@ -49,9 +49,10 @@ body{
             
             &-fix{
                 position: absolute;
+                content: "";
                 width: 10px;
                 height: 10px;
-                background: rgba(255, 255, 255, 0.5);
+                background: $car-body;
                 left: -231px;
                 z-index: 99;
                 top: 9px;
