@@ -59,5 +59,10 @@ body {
       border-radius: 50px 0;
       left: -4px;
       top: 1px; }
+  .joshua .container .front-light {
+    position: relative;
+    width: 10px;
+    height: 35px;
+    background: #000000; }
 
 /*# sourceMappingURL=style.css.map */

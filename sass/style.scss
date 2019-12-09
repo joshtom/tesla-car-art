@@ -11,6 +11,7 @@ body{
     $border: #282a35;
     $tire-color: #333;
     $border-thickness: 4px;
+    $dark: #000000;
     // $starman-body: -4;
     $seat: 1;
     $hand: 2;
@@ -90,6 +91,13 @@ body{
 
         }
 
+        // Dark Front light for the bumper
+        .front-light{
+            position: relative;
+            width: 10px;
+            height: 35px;
+            background: $dark;
+        }
         
 
         
