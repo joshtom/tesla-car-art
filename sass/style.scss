@@ -48,9 +48,13 @@ body{
             // For Car fix to remove the border that
             
             &-fix{
+                position: absolute;
                 width: 10px;
                 height: 10px;
-                background: #fff;
+                background: rgba(255, 255, 255, 0.5);
+                left: -231px;
+                z-index: 99;
+                top: 9px;
             }
 
         }
