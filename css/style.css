@@ -138,6 +138,24 @@ body {
       height: 60px;
       background-color: #000;
       transform: rotate(45deg); }
+      .joshua .container .car-tire .front .details-2:before,
+      .joshua .container .car-tire .rear .details-2:before {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: inherit;
+        background-color: #000;
+        transform: rotate(90deg); }
+    .joshua .container .car-tire .front .details-3,
+    .joshua .container .car-tire .rear .details-3 {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      content: "";
+      background-color: #aaaaaa;
+      opacity: 0.9;
+      border-radius: 50%;
+      z-index: -1; }
   .joshua .container .front-light {
     position: relative;
     width: 10px;

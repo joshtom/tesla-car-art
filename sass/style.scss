@@ -187,6 +187,26 @@ body{
                             height: 60px;
                             background-color: $border;
                             transform: rotate(45deg);
+
+                            &:before {
+                            position: absolute;
+                            content: "";
+                            width: 2px;
+                            height: inherit;
+                            background-color: $border;
+                            transform: rotate(90deg);
+                        }
+                        }
+
+                        .details-3 {
+                        position: absolute;
+                        width: 40px;
+                        height: 40px;
+                        content: "";
+                        background-color: lighten(#444, 40%);
+                        opacity: 0.9;
+                        border-radius: 50%;
+                        z-index: -1;
                         }
                     }
                     
