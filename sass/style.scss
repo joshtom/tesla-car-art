@@ -103,9 +103,12 @@ body{
             left: 4px;
         }
         .wind-shield {
-            height: 100px;
-            width: 40px;
+            position: absolute;
+            height: 400px;
+            width: 400px;
             background: $dark;
+            left: 100px;
+            top: 100px;
         }
         
     }
