@@ -94,6 +94,17 @@ body {
         left: 94px;
         z-index: 0px;
         border-radius: 0 0 0 50px; }
+    .joshua .container .car-tire .front, .joshua .container .car-tire .rear {
+      width: 60px;
+      height: 60px;
+      background: #000;
+      position: absolute;
+      border-radius: 50%;
+      top: 22px;
+      z-index: 99;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
   .joshua .container .front-light {
     position: relative;
     width: 10px;
