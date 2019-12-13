@@ -69,6 +69,7 @@ body {
     transform: rotate(-25deg);
     left: 4px; }
   .joshua .container .wind-shield {
-    height: 100px; }
+    height: 100px;
+    width: 40px; }
 
 /*# sourceMappingURL=style.css.map */
