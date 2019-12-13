@@ -77,34 +77,34 @@ body{
 
         }
 
-        }
+                &-bumper-top{
+                    width: 135px;
+                    height: 23px;
+                    position: absolute;
+                    background-color: $car-body;
+                    border: 4px solid;
+                    border-radius: 50%;
+                    top: -8px;
+                    left: -235px;
+                    display: block;
+                    transform: rotate(2deg);
+                    border-color: $border transparent transparent $border;
+                    overflow: hidden;
+                    z-index: 99;
+                    box-shadow: inset 0 3px 0 rgba($color: #fff, $alpha: 0.17);
 
-        .car-bumper-top{
-            width: 135px;
-            height: 23px;
-            position: absolute;
-            background-color: $car-body;
-            border: 4px solid;
-            border-radius: 50%;
-            top: -8px;
-            left: -235px;
-            display: block;
-            transform: rotate(2deg);
-            border-color: $border transparent transparent $border;
-            overflow: hidden;
-            z-index: 99;
-            box-shadow: inset 0 3px 0 rgba($color: #fff, $alpha: 0.17);
+                    .front-light-bulb{
+                        position: absolute;
+                        width: 33px;
+                        height: 10px;
+                        background: rgba($color: #fff, $alpha: 0.5);
+                        transform: rotate(-10deg);
+                        border-radius: 50px 0;
+                        left: -4px;
+                        top: 1px;
+                    }
 
-            .front-light-bulb{
-                position: absolute;
-                width: 33px;
-                height: 10px;
-                background: rgba($color: #fff, $alpha: 0.5);
-                transform: rotate(-10deg);
-                border-radius: 50px 0;
-                left: -4px;
-                top: 1px;
-            }
+                }
 
         }
 
