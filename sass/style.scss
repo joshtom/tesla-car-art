@@ -165,8 +165,28 @@ body{
                     }
                     .front,
                     .rear{
-                        .detail-1{
-                            
+                        .details-1{
+                            position: absolute;
+                            width: 2px;
+                            height: 60px;
+                            background-color: $border; 
+
+                            &:before {
+                                position: absolute;
+                                content: "";
+                                width: 2px;
+                                height: inherit;
+                                background-color: $border;
+                                transform: rotate(90deg);
+                            }
+                        }
+
+                        .details-2 {
+                            position: absolute;
+                            width: 2px;
+                            height: 60px;
+                            background-color: $border;
+                            transform: rotate(45deg);
                         }
                     }
                     

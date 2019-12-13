@@ -117,6 +117,27 @@ body {
       left: -190px; }
     .joshua .container .car-tire .rear {
       right: -130px; }
+    .joshua .container .car-tire .front .details-1,
+    .joshua .container .car-tire .rear .details-1 {
+      position: absolute;
+      width: 2px;
+      height: 60px;
+      background-color: #000; }
+      .joshua .container .car-tire .front .details-1:before,
+      .joshua .container .car-tire .rear .details-1:before {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: inherit;
+        background-color: #000;
+        transform: rotate(90deg); }
+    .joshua .container .car-tire .front .details-2,
+    .joshua .container .car-tire .rear .details-2 {
+      position: absolute;
+      width: 2px;
+      height: 60px;
+      background-color: #000;
+      transform: rotate(45deg); }
   .joshua .container .front-light {
     position: relative;
     width: 10px;
