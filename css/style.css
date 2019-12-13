@@ -80,7 +80,7 @@ body {
     z-index: 1000; }
   .joshua .container .side-mirror {
     position: absolute;
-    width: 51px;
+    width: 45px;
     height: 32px;
     border: 6px solid #000;
     border-radius: 50%;
