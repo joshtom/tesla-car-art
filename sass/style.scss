@@ -6,7 +6,7 @@ body{
 }
 .joshua{
     // Declaring reusable variables
-    $tire: 99;
+    $tire: 1000;
     $car-body: #ce4028;
     $border: #282a35;
     $border: #000;
@@ -148,8 +148,17 @@ body{
                         align-items: center;
 
                         &:before {
-                            
+                            position: absolute;
+                            content: "";
+                            width: 60px;
+                            height: 60px;
+                            border: 5px solid #333;
+                            opacity: 0.2;
+                            border-radius: 50%;
                         }
+                    }
+                    .front {
+                        left: -190px;
                     }
                 }
 

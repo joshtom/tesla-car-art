@@ -101,10 +101,20 @@ body {
       position: absolute;
       border-radius: 50%;
       top: 22px;
-      z-index: 99;
+      z-index: 1000;
       display: flex;
       justify-content: center;
       align-items: center; }
+      .joshua .container .car-tire .front:before, .joshua .container .car-tire .rear:before {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 60px;
+        border: 5px solid #333;
+        opacity: 0.2;
+        border-radius: 50%; }
+    .joshua .container .car-tire .front {
+      left: -190px; }
   .joshua .container .front-light {
     position: relative;
     width: 10px;
