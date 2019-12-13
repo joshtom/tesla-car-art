@@ -104,11 +104,11 @@ body{
         }
         .wind-shield {
             position: absolute;
-            height: 400px;
-            width: 400px;
+            height: 50px;
+            width: 15px;
             background: $dark;
-            left: 100px;
-            top: 100px;
+            transform: rotate(40deg);
+            border-radius: 2px 2px 2px 2px;
         }
         
     }
