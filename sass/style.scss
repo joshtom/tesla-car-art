@@ -61,6 +61,22 @@ body{
                 box-shadow: inset 5px 0 0 rgba(255, 255, 255, 0.17);
             }
 
+             &-fender{
+                position: absolute;
+                top: -2px;
+                left: -100px;
+                width: 260px;
+                height: 65px;
+                border-radius: 30px 20px 40px 20px;
+                background: $car-body;
+                border: 4px solid;
+                border-color: $border;
+                z-index: 900;
+                overflow: hidden;
+                box-shadow: inset 0 4px 0 rgba($color: #fff, $alpha: 0.17), inset -5px -4px 0 rgba($color: #333, $alpha: 0.2);
+
+        }
+
         }
 
         .car-bumper-top{
@@ -127,21 +143,7 @@ body{
             background: $car-body;
         }
 
-        .car-fender{
-        position: absolute;
-        top: -2px;
-        left: -100px;
-        width: 260px;
-        height: 65px;
-        border-radius: 30px 20px 40px 20px;
-        background: $car-body;
-        border: 4px solid;
-        border-color: $border;
-        z-index: 900;
-        overflow: hidden;
-        box-shadow: inset 0 4px 0 rgba($color: #fff, $alpha: 0.17), inset -5px -4px 0 rgba($color: #333, $alpha: 0.2);
-
-}
+       
         
     }
 }
