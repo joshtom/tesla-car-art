@@ -7,7 +7,7 @@ body{
 .joshua{
     // Declaring reusable variables
     $tire: 99;
-    $car-body: #ce4038;
+    $car-body: #ce4028;
     $border: #282a35;
     $border: #000;
     $tire-color: #333;
@@ -36,7 +36,7 @@ body{
                 width: 180px;
                 height: 65px;
                 border-radius: 25px 70px 70px 100px;
-                background-color:#ce4038;
+                background-color: $car-body;
                 top: -2px;
                 left: -235px;
                 border: 4px solid;
@@ -117,15 +117,31 @@ body{
 
         .side-mirror {
             position: absolute;
-            width: 45px;
-            height: 32px;
-            border: 6px solid $border;
+            width: 39px;
+            height: 29px;
+            border: 5px solid $border;
             border-radius: 50%;
             left: -102px;
             top: -15px;
             z-index: 1000;
             background: $car-body;
         }
+
+        .car-fender{
+        position: absolute;
+        top: -2px;
+        left: -100px;
+        width: 260px;
+        height: 65px;
+        border-radius: 30px 20px 40px 20px;
+        background: $car-body;
+        border: 4px solid;
+        border-color: $border;
+        z-index: 900;
+        overflow: hidden;
+        box-shadow: inset 0 4px 0 rgba($color: #fff, $alpha: 0.17), inset -5px -4px 0 rgba($color: #333, $alpha: 0.2);
+
+}
         
     }
 }
