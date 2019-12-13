@@ -18,7 +18,7 @@ body{
     $car-front: -2;
     $car-rear: -1;
 
-    .container{
+    .container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -102,8 +102,9 @@ body{
             transform: rotate(-25deg);
             left: 4px;
         }
-        
-
+        .wind-shield {
+            
+        }
         
     }
 }
