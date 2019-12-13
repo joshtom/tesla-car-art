@@ -85,6 +85,15 @@ body {
       border: 4px solid;
       border-color: #000 #000 transparent transparent;
       box-shadow: inset 0px 4px 0px rgba(255, 255, 255, 0.17); }
+      .joshua .container .car-rear-top .back-light {
+        position: absolute;
+        width: 23px;
+        height: 10px;
+        background: #000;
+        top: 27px;
+        left: 94px;
+        z-index: 0px;
+        border-radius: 0 0 0 50px; }
   .joshua .container .front-light {
     position: relative;
     width: 10px;
