@@ -177,11 +177,11 @@ body {
     z-index: 1000; }
   .joshua .container .side-mirror {
     position: absolute;
-    width: 39px;
-    height: 29px;
+    width: 32px;
+    height: 23px;
     border: 5px solid #000;
     border-radius: 50%;
-    left: -102px;
+    left: -109px;
     top: -15px;
     z-index: 1000;
     background: #ce4028; }
