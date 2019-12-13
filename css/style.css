@@ -70,6 +70,7 @@ body {
     left: 4px; }
   .joshua .container .wind-shield {
     height: 100px;
-    width: 40px; }
+    width: 40px;
+    background: #000000; }
 
 /*# sourceMappingURL=style.css.map */
