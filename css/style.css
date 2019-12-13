@@ -115,6 +115,8 @@ body {
         border-radius: 50%; }
     .joshua .container .car-tire .front {
       left: -190px; }
+    .joshua .container .car-tire .rear {
+      right: -130px; }
   .joshua .container .front-light {
     position: relative;
     width: 10px;
