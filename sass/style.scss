@@ -172,6 +172,8 @@ body{
                                 background: rgba($color: #fff, $alpha: 0.5);
                             }
                         }
+
+                       
                     }
 
                 }
@@ -442,7 +444,30 @@ body{
                                 transform: rotate(10deg);
                             }
                         }
-        }  
+        }       
+                        .front-light-bulb-glare {
+                            position: absolute;
+                            height: 20px;
+                            width: 200px;
+                            background: linear-gradient(90deg,
+                            transparent,
+                            rgba(255, 255, 255, 0.4));
+                            left: -401px;
+                            top: -17px;
+                            border-radius: 0 0px 50% 0;
+                            transform: rotate(7deg);
+                            animation: glare-once 5s linear both;
+                            opacity: 0;
+
+                            @keyframes glare-once {
+                                from {
+                                    opacity: none;
+                                }
+                                to {
+                                    opacity: 1;
+                                }
+                            }
+                        }
     } // End of container
 }
 
