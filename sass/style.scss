@@ -212,43 +212,45 @@ body{
                     
                 }
 
+                         // Dark Front light for the bumper
+                        .front-light{
+                            position: relative;
+                            width: 10px;
+                            height: 27px;
+                            background: $dark;
+                            top: 23px;
+                            border-radius: 0px 20px 20px 0px;
+                            transform: rotate(-25deg);
+                            left: 4px;
+                        }
+                        .wind-shield {
+                        position: absolute;
+                            height: 71px;
+                            width: 11px;
+                            background:
+                            #000;
+                            transform: rotate(46deg);
+                            border-radius: 5px 23px 2px 2px;
+                            top: -57px;
+                            left: -78px;
+                            z-index: 1000;
+                        }
+
+                        .side-mirror {
+                            position: absolute;
+                            width: 22px;
+                            height: 15px;
+                            border: 4px solid #000;
+                            border-radius: 50%;
+                            left: -102px;
+                            top: -8px;
+                            z-index: 1000;
+                            background: $car-body;
+                        }
+
         }
 
-        // Dark Front light for the bumper
-        .front-light{
-            position: relative;
-            width: 10px;
-            height: 27px;
-            background: $dark;
-            top: 23px;
-            border-radius: 0px 20px 20px 0px;
-            transform: rotate(-25deg);
-            left: 4px;
-        }
-        .wind-shield {
-           position: absolute;
-            height: 71px;
-            width: 11px;
-            background:
-            #000;
-            transform: rotate(46deg);
-            border-radius: 5px 23px 2px 2px;
-            top: -57px;
-            left: -78px;
-            z-index: 1000;
-        }
-
-        .side-mirror {
-            position: absolute;
-            width: 22px;
-            height: 15px;
-            border: 4px solid #000;
-            border-radius: 50%;
-            left: -102px;
-            top: -8px;
-            z-index: 1000;
-            background: $car-body;
-        }
+        
 
        
         

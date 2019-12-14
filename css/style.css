@@ -156,34 +156,34 @@ body {
       opacity: 0.9;
       border-radius: 50%;
       z-index: -1; }
-  .joshua .container .front-light {
-    position: relative;
-    width: 10px;
-    height: 27px;
-    background: #000000;
-    top: 23px;
-    border-radius: 0px 20px 20px 0px;
-    transform: rotate(-25deg);
-    left: 4px; }
-  .joshua .container .wind-shield {
-    position: absolute;
-    height: 71px;
-    width: 11px;
-    background: #000;
-    transform: rotate(46deg);
-    border-radius: 5px 23px 2px 2px;
-    top: -57px;
-    left: -78px;
-    z-index: 1000; }
-  .joshua .container .side-mirror {
-    position: absolute;
-    width: 22px;
-    height: 15px;
-    border: 4px solid #000;
-    border-radius: 50%;
-    left: -102px;
-    top: -8px;
-    z-index: 1000;
-    background: #ce4028; }
+    .joshua .container .car .front-light {
+      position: relative;
+      width: 10px;
+      height: 27px;
+      background: #000000;
+      top: 23px;
+      border-radius: 0px 20px 20px 0px;
+      transform: rotate(-25deg);
+      left: 4px; }
+    .joshua .container .car .wind-shield {
+      position: absolute;
+      height: 71px;
+      width: 11px;
+      background: #000;
+      transform: rotate(46deg);
+      border-radius: 5px 23px 2px 2px;
+      top: -57px;
+      left: -78px;
+      z-index: 1000; }
+    .joshua .container .car .side-mirror {
+      position: absolute;
+      width: 22px;
+      height: 15px;
+      border: 4px solid #000;
+      border-radius: 50%;
+      left: -102px;
+      top: -8px;
+      z-index: 1000;
+      background: #ce4028; }
 
 /*# sourceMappingURL=style.css.map */
