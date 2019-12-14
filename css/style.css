@@ -187,12 +187,13 @@ body {
       background: #ce4028; }
     .joshua .container .car .space-man .back-seat {
       width: 9px;
-      height: 53px;
+      height: 40px;
       background: #000;
       position: absolute;
-      left: 42px;
-      top: -39px;
-      transform: rotate(8deg);
-      border-radius: 5px 5px 0 0; }
+      left: 46px;
+      top: -38px;
+      transform: rotate(11deg);
+      border-radius: 5px 5px 4px 0;
+      z-index: 1000; }
 
 /*# sourceMappingURL=style.css.map */
