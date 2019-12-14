@@ -1,241 +1,116 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: radial-gradient(#555260, #18171b);
-  overflow: hidden; }
+/*
+Error: Undefined variable: "$light-bg".
+        on line 269 of sass/style.scss
 
-.joshua .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
-  .joshua .container .car {
-    position: relative;
-    background: #ce4028; }
-    .joshua .container .car-bumper-front {
-      position: absolute;
-      width: 180px;
-      height: 65px;
-      border-radius: 25px 70px 70px 100px;
-      background-color: #ce4028;
-      top: -2px;
-      left: -235px;
-      border: 4px solid;
-      border-color: #000;
-      z-index: -3;
-      overflow: hidden;
-      box-shadow: inset -5px -10px 0 rgba(51, 51, 51, 0.22), inset 5px 0 0 rgba(255, 255, 255, 0.17); }
-    .joshua .container .car-fix {
-      position: absolute;
-      content: "";
-      width: 10px;
-      height: 10px;
-      background: #ce4028;
-      left: -231px;
-      z-index: 99;
-      top: 7px;
-      box-shadow: inset 5px 0 0 rgba(255, 255, 255, 0.17); }
-    .joshua .container .car-fender {
-      position: absolute;
-      top: -2px;
-      left: -100px;
-      width: 260px;
-      height: 65px;
-      border-radius: 30px 20px 40px 20px;
-      background: #ce4028;
-      border: 4px solid;
-      border-color: #000;
-      z-index: 900;
-      overflow: hidden;
-      box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.17), inset -5px -4px 0 rgba(51, 51, 51, 0.2); }
-    .joshua .container .car-bumper-top {
-      width: 135px;
-      height: 23px;
-      position: absolute;
-      background-color: #ce4028;
-      border: 4px solid;
-      border-radius: 50%;
-      top: -8px;
-      left: -235px;
-      display: block;
-      transform: rotate(2deg);
-      border-color: #000 transparent transparent #000;
-      overflow: hidden;
-      z-index: 99;
-      box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.17); }
-      .joshua .container .car-bumper-top .front-light-bulb {
-        position: absolute;
-        width: 33px;
-        height: 10px;
-        background: rgba(255, 255, 255, 0.5);
-        transform: rotate(-10deg);
-        border-radius: 50px 0;
-        left: -4px;
-        top: 1px; }
-    .joshua .container .car-rear-top {
-      position: absolute;
-      width: 113px;
-      height: 33px;
-      background: #ce4028;
-      top: -25px;
-      left: 50px;
-      z-index: 999;
-      border-radius: 0px 70% 0px 0px;
-      transform: rotate(9.2deg);
-      border: 4px solid;
-      border-color: #000 #000 transparent transparent;
-      box-shadow: inset 0px 4px 0px rgba(255, 255, 255, 0.17); }
-      .joshua .container .car-rear-top .back-light {
-        position: absolute;
-        width: 23px;
-        height: 10px;
-        background: #000;
-        top: 27px;
-        left: 94px;
-        z-index: 0px;
-        border-radius: 0 0 0 50px; }
-    .joshua .container .car-tire .front, .joshua .container .car-tire .rear {
-      width: 60px;
-      height: 60px;
-      background: #000;
-      position: absolute;
-      border-radius: 50%;
-      top: 22px;
-      z-index: 1000;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .joshua .container .car-tire .front:before, .joshua .container .car-tire .rear:before {
-        position: absolute;
-        content: "";
-        width: 60px;
-        height: 60px;
-        border: 5px solid #333;
-        opacity: 0.2;
-        border-radius: 50%; }
-    .joshua .container .car-tire .front {
-      left: -190px; }
-    .joshua .container .car-tire .rear {
-      right: -130px; }
-    .joshua .container .car-tire .front .details-1,
-    .joshua .container .car-tire .rear .details-1 {
-      position: absolute;
-      width: 2px;
-      height: 60px;
-      background-color: #000; }
-      .joshua .container .car-tire .front .details-1:before,
-      .joshua .container .car-tire .rear .details-1:before {
-        position: absolute;
-        content: "";
-        width: 2px;
-        height: inherit;
-        background-color: #000;
-        transform: rotate(90deg); }
-    .joshua .container .car-tire .front .details-2,
-    .joshua .container .car-tire .rear .details-2 {
-      position: absolute;
-      width: 2px;
-      height: 60px;
-      background-color: #000;
-      transform: rotate(45deg); }
-      .joshua .container .car-tire .front .details-2:before,
-      .joshua .container .car-tire .rear .details-2:before {
-        position: absolute;
-        content: "";
-        width: 2px;
-        height: inherit;
-        background-color: #000;
-        transform: rotate(90deg); }
-    .joshua .container .car-tire .front .details-3,
-    .joshua .container .car-tire .rear .details-3 {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      content: "";
-      background-color: #aaaaaa;
-      opacity: 0.9;
-      border-radius: 50%;
-      z-index: -1; }
-    .joshua .container .car .front-light {
-      position: relative;
-      width: 10px;
-      height: 27px;
-      background: #000000;
-      top: 23px;
-      border-radius: 0px 20px 20px 0px;
-      transform: rotate(-25deg);
-      left: 4px; }
-    .joshua .container .car .wind-shield {
-      position: absolute;
-      height: 71px;
-      width: 11px;
-      background: #000000;
-      transform: rotate(46deg);
-      border-radius: 5px 23px 2px 2px;
-      top: -57px;
-      left: -78px;
-      z-index: 1000; }
-    .joshua .container .car .side-mirror {
-      position: absolute;
-      width: 22px;
-      height: 15px;
-      border: 4px solid #000;
-      border-radius: 50%;
-      left: -102px;
-      top: -8px;
-      z-index: 1000;
-      background: #ce4028; }
-    .joshua .container .car .space-man .back-seat {
-      width: 9px;
-      height: 40px;
-      background: #000;
-      position: absolute;
-      left: 46px;
-      top: -38px;
-      transform: rotate(11deg);
-      border-radius: 5px 5px 4px 0;
-      z-index: 1000; }
-    .joshua .container .car .space-man .face {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: #f2f2f2;
-      top: -56px;
-      left: -6px;
-      border: 3px solid #000;
-      overflow: hidden;
-      box-shadow: inset -4px -4px 0 rgba(51, 51, 51, 0.2); }
-      .joshua .container .car .space-man .face:before {
-        position: absolute;
-        content: "";
-        width: 17px;
-        height: 17px;
-        border-radius: 3px;
-        background: #f7ac76;
-        transform: rotate(-45deg);
-        left: -7px;
-        top: 7px;
-        border: 2px solid #000;
-        box-shadow: inset -5px 5px 3 0 rgba(255, 255, 255, 0.4); }
-    .joshua .container .car .space-man .back {
-      width: 39px;
-      height: 40px;
-      position: absolute;
-      border: 3px solid #000;
-      background: #f2f2f2;
-      top: -23px;
-      left: 2px;
-      z-index: -1000;
-      border-radius: 0 17px 0 0;
-      transform: rotate(7deg); }
-    .joshua .container .car .space-man .hand {
-      width: 100px;
-      height: 40px;
-      position: absolute;
-      border: 3px solid #000000;
-      border-radius: 0 5px 5px 0;
-      top: 10px;
-      left: 10px; }
+264:                             .face{
+265:                                 position: absolute;
+266:                                 width: 40px;
+267:                                 height: 40px;
+268:                                 border-radius: 50%;
+269:                                 background: $light-bg;
+270:                                 top: -56px;
+271:                                 left: -6px;
+272:                                 border: 3px solid $border;
+273:                                 overflow: hidden;
+274:                                 box-shadow: inset -4px -4px 0 rgba(#333, 0.2);
 
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+sass/style.scss:269
+/usr/lib/ruby/vendor_ruby/sass/script/tree/variable.rb:49:in `_perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:50:in `perform'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:471:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:328:in `block in watch'
+/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
+/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$light-bg\".\A         on line 269 of sass/style.scss\A \A 264:                             .face{\A 265:                                 position: absolute;\A 266:                                 width: 40px;\A 267:                                 height: 40px;\A 268:                                 border-radius: 50%;\A 269:                                 background: $light-bg;\A 270:                                 top: -56px;\A 271:                                 left: -6px;\A 272:                                 border: 3px solid $border;\A 273:                                 overflow: hidden;\A 274:                                 box-shadow: inset -4px -4px 0 rgba(#333, 0.2);"; }
