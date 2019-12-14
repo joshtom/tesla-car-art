@@ -56,28 +56,32 @@ body {
       overflow: hidden;
       box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.17), inset -5px -4px 0 rgba(51, 51, 51, 0.2); }
       .joshua .container .car-fender-bottom {
-        width: 224px;
-        height: 5px;
+        width: 200px;
+        height: 10px;
+        background: #a9302a;
         position: absolute;
-        top: 50px;
-        left: -1px;
-        background: #000000; }
+        top: 53px;
+        left: -95px;
+        border: 4px solid #000000;
+        transform: skew(35deg); }
       .joshua .container .car-fender-fade-1 {
-        background: rgba(51, 51, 51, 0.17);
-        position: absolute;
+        background: rgba(255, 255, 255, 0.25);
+        position: relative;
         width: 40px;
-        height: 42px;
+        height: 165px;
         z-index: 1000;
-        top: 4px;
-        left: 79px; }
-      .joshua .container .car-fender-fade-2 {
-        background: rgba(51, 51, 51, 0.17);
-        position: absolute;
-        width: 40px;
-        height: 42px;
-        z-index: 1000;
-        top: 4px;
-        left: 60px; }
+        top: -62px;
+        left: 79px;
+        opacity: 0.4;
+        transform: rotate(20deg); }
+        .joshua .container .car-fender-fade-1:before {
+          position: absolute;
+          content: "";
+          width: 20px;
+          height: 165px;
+          transform: rotate(2deg);
+          left: -30px;
+          background: rgba(255, 255, 255, 0.24); }
     .joshua .container .car-bumper-top {
       width: 135px;
       height: 23px;
