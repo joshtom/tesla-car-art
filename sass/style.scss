@@ -142,7 +142,7 @@ body{
                         width: 33px;
                         height: 10px;
                         background: rgba($color: #fff, $alpha: 0.5);
-                        animation: change-color 1s ease-in-out infinite both;
+                        animation: change-color 1s cubic-bezier(.68,-0.55,.27,1.55) infinite both;
                         transform: rotate(-10deg);
                         border-radius: 50px 0;
                         left: -4px;
@@ -150,7 +150,7 @@ body{
 
                         @keyframes change-color{
                             from {
-                                background: red;
+                                background: #f7ac76;
                             }
                             to {
                                 background: rgba($color: #fff, $alpha: 0.5);
@@ -260,6 +260,7 @@ body{
                         opacity: 0.9;
                         border-radius: 50%;
                         z-index: -1;
+                        
                         }
                     }
                     
