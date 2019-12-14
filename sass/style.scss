@@ -199,6 +199,7 @@ body{
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        
 
                         &:before {
                             position: absolute;
@@ -223,6 +224,7 @@ body{
                             width: 2px;
                             height: 60px;
                             background-color: $border; 
+                            animation: rotate-detail1 1s linear infinite both;
 
                             &:before {
                                 position: absolute;
@@ -231,6 +233,8 @@ body{
                                 height: inherit;
                                 background-color: $border;
                                 transform: rotate(90deg);
+                                
+                                
                             }
                         }
 
@@ -240,6 +244,8 @@ body{
                             height: 60px;
                             background-color: $border;
                             transform: rotate(45deg);
+                            animation: rotate-detail2 1s linear infinite both;
+                            
 
                             &:before {
                             position: absolute;
@@ -248,6 +254,7 @@ body{
                             height: inherit;
                             background-color: $border;
                             transform: rotate(90deg);
+                            
                         }
                         }
 
@@ -260,6 +267,21 @@ body{
                         opacity: 0.9;
                         border-radius: 50%;
                         z-index: -1;
+                        
+
+                        @keyframes rotate-detail1{
+                            0% {
+                                transform: rotate(-90deg);
+                            } 
+                            
+                        }
+
+                         @keyframes rotate-detail2{
+                            0% {
+                                transform: rotate(-45deg);
+                            } 
+                            
+                        }
                         
                         }
                     }
