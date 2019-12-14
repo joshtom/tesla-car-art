@@ -239,14 +239,15 @@ body{
 
         .side-mirror {
             position: absolute;
-            width: 32px;
-            height: 23px;
-            border: 5px solid $border;
+            width: 22px;
+            height: 15px;
+            border: 4px solid
+            #000;
             border-radius: 50%;
-            left: -109px;
-            top: -15px;
+            left: -102px;
+            top: -8px;
             z-index: 1000;
-            background: $car-body;
+            background: #ce4028;
         }
 
        
