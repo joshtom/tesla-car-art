@@ -267,8 +267,8 @@ body{
                                 height: 40px;
                                 border-radius: 50%;
                                 background: #f2f2f2;
-                                top: 60px;
-                                left: -18px;
+                                top: -59px;
+                                left: -6px;
                                 border: 3px solid $border;
                                 overflow: hidden;
                                 box-shadow: inset -4px -4px 0 rgba(#333, 0.2);
@@ -286,6 +286,19 @@ body{
                                    border: 2px solid $border;
                                    box-shadow: inset -5px 5px 3 0 rgba(#fff, 0.4);
                                 }
+                            }
+
+                            .back{
+                                width: 39px;
+                                height: 40px;
+                                position: absolute;
+                                border: 3px solid #000;
+                                background: #f2f2f2;
+                                top: -23px;
+                                left: 2px;
+                                z-index: -1000;
+                                border-radius: 0 17px 0 0;
+                                transform: rotate(7deg);
                             }
                         }
         }  
