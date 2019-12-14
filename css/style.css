@@ -169,7 +169,7 @@ body {
       position: absolute;
       height: 71px;
       width: 11px;
-      background: #000;
+      background: #000000;
       transform: rotate(46deg);
       border-radius: 5px 23px 2px 2px;
       top: -57px;
@@ -185,5 +185,14 @@ body {
       top: -8px;
       z-index: 1000;
       background: #ce4028; }
+    .joshua .container .car .space-man .back-seat {
+      width: 9px;
+      height: 53px;
+      background: #000;
+      position: absolute;
+      left: 42px;
+      top: -39px;
+      transform: rotate(8deg);
+      border-radius: 5px 5px 0 0; }
 
 /*# sourceMappingURL=style.css.map */
