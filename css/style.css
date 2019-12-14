@@ -243,11 +243,12 @@ body {
       background: #f2f2f2;
       box-shadow: inset -1px 3px 0 rgba(51, 51, 51, 0.2); }
     .joshua .container .car .space-man .steering {
-      width: 40px;
-      height: 80px;
+      width: 9px;
+      height: 36px;
       background: #000000;
       position: absolute;
-      top: 3px;
-      left: 3px; }
+      top: -25px;
+      left: -53px;
+      border-radius: 20px; }
 
 /*# sourceMappingURL=style.css.map */
