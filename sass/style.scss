@@ -241,13 +241,12 @@ body{
             position: absolute;
             width: 22px;
             height: 15px;
-            border: 4px solid
-            #000;
+            border: 4px solid #000;
             border-radius: 50%;
             left: -102px;
             top: -8px;
             z-index: 1000;
-            background: #ce4028;
+            background: $car-body;
         }
 
        
