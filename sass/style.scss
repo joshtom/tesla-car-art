@@ -78,7 +78,12 @@ body{
                 box-shadow: inset 0 4px 0 rgba($color: #fff, $alpha: 0.17), inset -5px -4px 0 rgba($color: #333, $alpha: 0.2);
 
                 &-bottom-first {
-                    
+                    width: 80px;
+                    height: 4px;
+                    position: absolute;
+                    top: 50px;
+                    left: 10px;
+                    background: $dark;
                 }
                 &-bottom {
                     width: 224px;
