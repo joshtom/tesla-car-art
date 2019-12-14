@@ -103,6 +103,11 @@ body {
         border-radius: 50px 0;
         left: -4px;
         top: 1px; }
+@keyframes change-color {
+  from {
+    background: red; }
+  to {
+    background: rgba(255, 255, 255, 0.5); } }
     .joshua .container .car-rear-top {
       position: absolute;
       width: 113px;

@@ -147,6 +147,15 @@ body{
                         border-radius: 50px 0;
                         left: -4px;
                         top: 1px;
+
+                        @keyframes change-color{
+                            from {
+                                background: red;
+                            }
+                            to {
+                                background: rgba($color: #fff, $alpha: 0.5);
+                            }
+                        }
                     }
 
                 }
