@@ -195,5 +195,29 @@ body {
       transform: rotate(11deg);
       border-radius: 5px 5px 4px 0;
       z-index: 1000; }
+    .joshua .container .car .space-man .face {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #f2f2f2;
+      top: 60px;
+      left: 60px;
+      border: 3px solid #000;
+      overflow: hidden;
+      box-shadow: inset -4px -4px 0 rgba(51, 51, 51, 0.2);
+      display: none; }
+      .joshua .container .car .space-man .face:before {
+        position: absolute;
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 3px;
+        background: #f7ac76;
+        transform: rotate(-45deg);
+        left: -7px;
+        top: 7px;
+        border: 2px solid #000;
+        box-shadow: inset -5px 5px 3 0 rgba(255, 255, 255, 0.4); }
 
 /*# sourceMappingURL=style.css.map */
