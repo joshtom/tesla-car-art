@@ -242,7 +242,7 @@ body{
                             width: 2px;
                             height: 60px;
                             background-color: $border; 
-                            animation: rotate-detail1 1s linear infinite both;
+                            // animation: rotate-detail1 1s linear infinite both;
 
                             &:before {
                                 position: absolute;
@@ -262,7 +262,7 @@ body{
                             height: 60px;
                             background-color: $border;
                             transform: rotate(45deg);
-                            animation: rotate-detail2 1s linear infinite both;
+                            // animation: rotate-detail2 1s linear infinite both;
                             
 
                             &:before {
@@ -470,7 +470,7 @@ body{
                         }
     } // End of container
 }
-
+    
 
 
 

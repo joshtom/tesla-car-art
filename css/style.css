@@ -163,8 +163,7 @@ body {
       position: absolute;
       width: 2px;
       height: 60px;
-      background-color: #000;
-      animation: rotate-detail1 1s linear infinite both; }
+      background-color: #000; }
       .joshua .container .car-tire .front .details-1:before,
       .joshua .container .car-tire .rear .details-1:before {
         position: absolute;
@@ -179,8 +178,7 @@ body {
       width: 2px;
       height: 60px;
       background-color: #000;
-      transform: rotate(45deg);
-      animation: rotate-detail2 1s linear infinite both; }
+      transform: rotate(45deg); }
       .joshua .container .car-tire .front .details-2:before,
       .joshua .container .car-tire .rear .details-2:before {
         position: absolute;
