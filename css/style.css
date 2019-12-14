@@ -167,13 +167,13 @@ body {
     left: 4px; }
   .joshua .container .wind-shield {
     position: absolute;
-    height: 110px;
-    width: 17px;
+    height: 71px;
+    width: 11px;
     background: #000;
     transform: rotate(46deg);
-    border-radius: 2px 23px 2px 2px;
-    top: -88px;
-    left: -72px;
+    border-radius: 5px 23px 2px 2px;
+    top: -57px;
+    left: -78px;
     z-index: 1000; }
   .joshua .container .side-mirror {
     position: absolute;
