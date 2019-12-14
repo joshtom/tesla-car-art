@@ -231,13 +231,13 @@ body {
       transform: rotate(7deg);
       box-shadow: inset -5px -4px 0px rgba(51, 51, 51, 0.2), inset 6px 5px 6px rgba(51, 51, 51, 0.2); }
     .joshua .container .car .space-man .hand {
-      width: 71px;
+      width: 67px;
       height: 11px;
       position: absolute;
       border: 3px solid #000000;
       border-radius: 50px;
-      top: -15px;
-      left: -48px;
+      top: -14px;
+      left: -40px;
       border-radius: 50px;
       transform: rotate(7deg);
       background: #f2f2f2;
